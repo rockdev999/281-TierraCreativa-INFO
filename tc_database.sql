@@ -30,7 +30,7 @@ CREATE TABLE `comunidad` (
   `municipio` varchar(100) NOT NULL,
   `pdf_url` varchar(500) NOT NULL,
   PRIMARY KEY (`id_comunidad`)
-) ENGINE=InnoDB AUTO_INCREMENT=15 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=16 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -39,7 +39,7 @@ CREATE TABLE `comunidad` (
 
 LOCK TABLES `comunidad` WRITE;
 /*!40000 ALTER TABLE `comunidad` DISABLE KEYS */;
-INSERT INTO `comunidad` VALUES (12,'Turuni','La Paz','Loayza','Sapahaqui','/uploads/1727269766718-846799452.pdf'),(13,'aaaaaaa','bbbbbbbb','ccccc','ddddddd','/uploads/1727293120719-325472140.pdf'),(14,'saf','fff','aasa','canijo','/uploads/1727293507053-728432747.pdf');
+INSERT INTO `comunidad` VALUES (12,'Turuni','La Paz','Loayza','Sapahaqui','/uploads/1727269766718-846799452.pdf'),(13,'aaaaaaa','bbbbbbbb','ccccc','ddddddd','/uploads/1727293120719-325472140.pdf'),(15,'saf','fff','aasa','canijo','/uploads/1727877037504-772242031.pdf');
 /*!40000 ALTER TABLE `comunidad` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -89,7 +89,7 @@ CREATE TABLE `persona` (
   `direccion` varchar(100) NOT NULL,
   `telefono` int DEFAULT '0',
   PRIMARY KEY (`id_persona`)
-) ENGINE=InnoDB AUTO_INCREMENT=33 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=36 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -98,7 +98,7 @@ CREATE TABLE `persona` (
 
 LOCK TABLES `persona` WRITE;
 /*!40000 ALTER TABLE `persona` DISABLE KEYS */;
-INSERT INTO `persona` VALUES (1,'12345678','Juan','Perez','Gomez','1990-01-01','Calle Falsa 123',0),(2,'87654321','Maria','Lopez','Martinez','1985-05-15','Avenida Siempre Viva 456',0),(3,'11223344','Carlos','Garcia','Rodriguez','1992-07-20','Calle Luna 789',0),(4,'44332211','Ana','Fernandez','Sanchez','1988-03-30','Calle Sol 101',0),(5,'55667788','Luis','Martinez','Diaz','1995-12-10','Avenida Estrella 202',0),(6,'88776655','Elena','Gonzalez','Ramirez','1993-09-25','Calle Cometa 303',0),(7,'99887766','Jose','Hernandez','Torres','1987-11-05','Avenida Meteoro 404',0),(8,'66778899','Laura','Ruiz','Vargas','1991-02-14','Calle Planeta 505',0),(9,'77665544','Miguel','Jimenez','Morales','1989-06-18','Avenida Galaxia 606',0),(10,'33445566','Sofia','Navarro','Ortiz','1994-08-22','Calle Universo 707',0),(11,'12345678','Juan','Perez','Gomez','1993-09-25','Calle Falsa 123',0),(12,'12345678','Juan','Perez','Gomez','1990-01-01','Calle Falsa 123',0),(13,'12345678','Juan','Perez','Gomez','1990-01-01','Calle Falsa 123',0),(14,'12345678','Juan','Perez','Gomez',NULL,'Calle Falsa 123',0),(15,'12345678','Juan','Perez','Gomez',NULL,'Calle Falsa 123',0),(16,'12345678','Juan','Perez','Gomez',NULL,'Calle Falsa 123',0),(17,'12345678','Juan','Perez','Gomez',NULL,'Calle Falsa 123',0),(18,'12345678','Juan','Perez','Gomez',NULL,'Calle Falsa 123',0),(19,'12345678','Juan','Perez','Gomez',NULL,'Calle Falsa 123',0),(20,'12345678','Juan','Perez','Gomez',NULL,'Calle Falsa 123',0),(21,'12345678','Juan','Perez','Gomez',NULL,'Calle Falsa 123',0),(22,'12345678','Juan','Perez','Gomez',NULL,'Calle Falsa 123',0),(23,'12345678','Juan','Perez','Gomez',NULL,'Calle Falsa 123',0),(24,'12345678','Juan','Perez','Gomez',NULL,'Calle Falsa 123',0),(25,'12345678','Juan','Perez','Gomez',NULL,'Calle Falsa 123',0),(26,'87654321','Maria','Lopez','Fernandez',NULL,'Avenida Siempre Viva 742',0),(27,'10848854','Augusto Fabian','Rios','Choque','2001-08-22','Bolivia',0),(28,'10848854','Frank','Rios','ERT','2001-08-22','Bolivia',0),(29,'10848854','Frank','Rios','ERT','2001-08-22','Bolivia',0),(30,'322323','asdfas','asdfa','asdfa','2024-09-10','asdfasdf',0),(31,'322323','Frank','Plazo','Lopez','2024-09-18','Calle del gato',0),(32,'11111111','pancho','paso','peres','2024-09-11','Juana azurduy',6775844);
+INSERT INTO `persona` VALUES (1,'12345678','Juan','Perez','Gomez','1990-01-01','Calle Falsa 123',0),(2,'87654321','Maria','Lopez','Martinez','1985-05-15','Avenida Siempre Viva 456',0),(3,'11223344','Carlos','Garcia','Rodriguez','1992-07-20','Calle Luna 789',0),(4,'44332211','Ana','Fernandez','Sanchez','1988-03-30','Calle Sol 101',0),(5,'55667788','Luis','Martinez','Diaz','1995-12-10','Avenida Estrella 202',0),(6,'88776655','Elena','Gonzalez','Ramirez','1993-09-25','Calle Cometa 303',0),(7,'99887766','Jose','Hernandez','Torres','1987-11-05','Avenida Meteoro 404',0),(8,'66778899','Laura','Ruiz','Vargas','1991-02-14','Calle Planeta 505',0),(9,'77665544','Miguel','Jimenez','Morales','1989-06-18','Avenida Galaxia 606',0),(10,'33445566','Sofia','Navarro','Ortiz','1994-08-22','Calle Universo 707',0),(11,'12345678','Juan','Perez','Gomez','1993-09-25','Calle Falsa 123',0),(12,'12345678','Juan','Perez','Gomez','1990-01-01','Calle Falsa 123',0),(13,'12345678','Juan','Perez','Gomez','1990-01-01','Calle Falsa 123',0),(14,'12345678','Juan','Perez','Gomez',NULL,'Calle Falsa 123',0),(15,'12345678','Juan','Perez','Gomez',NULL,'Calle Falsa 123',0),(16,'12345678','Juan','Perez','Gomez',NULL,'Calle Falsa 123',0),(17,'12345678','Juan','Perez','Gomez',NULL,'Calle Falsa 123',0),(18,'12345678','Juan','Perez','Gomez',NULL,'Calle Falsa 123',0),(19,'12345678','Juan','Perez','Gomez',NULL,'Calle Falsa 123',0),(20,'12345678','Juan','Perez','Gomez',NULL,'Calle Falsa 123',0),(21,'12345678','Juan','Perez','Gomez',NULL,'Calle Falsa 123',0),(22,'12345678','Juan','Perez','Gomez',NULL,'Calle Falsa 123',0),(23,'12345678','Juan','Perez','Gomez',NULL,'Calle Falsa 123',0),(24,'12345678','Juan','Perez','Gomez',NULL,'Calle Falsa 123',0),(25,'12345678','Juan','Perez','Gomez',NULL,'Calle Falsa 123',0),(26,'87654321','Maria','Lopez','Fernandez',NULL,'Avenida Siempre Viva 742',0),(27,'10848854','Augusto Fabian','Rios','Choque','2001-08-22','Bolivia',0),(28,'10848854','Frank','Rios','ERT','2001-08-22','Bolivia',0),(29,'10848854','Frank','Rios','ERT','2001-08-22','Bolivia',0),(30,'322323','asdfas','asdfa','asdfa','2024-09-10','asdfasdf',0),(31,'322323','Frank','Plazo','Lopez','2024-09-18','Calle del gato',0),(32,'11111111','pancho','paso','peres','2024-09-11','Juana azurduy',6775844),(33,'12341234','capitano','french','froy','2024-10-16','un lugar',2232321),(34,'2222222','user','user','user','2024-10-10','user direccion',123411),(35,'555555','frank','cuesta','selva','2024-10-09','jungla',123434343);
 /*!40000 ALTER TABLE `persona` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -128,6 +128,32 @@ INSERT INTO `rol` VALUES (3,'Artesano'),(2,'Comprador'),(1,'Encargado');
 UNLOCK TABLES;
 
 --
+-- Table structure for table `solicitud_art_com`
+--
+
+DROP TABLE IF EXISTS `solicitud_art_com`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `solicitud_art_com` (
+  `id_comunidad` int NOT NULL,
+  `id_encargado` int NOT NULL,
+  `id_solicitante` int NOT NULL,
+  `mensaje` varchar(500) NOT NULL,
+  `estado` varchar(45) NOT NULL DEFAULT 'invalido'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `solicitud_art_com`
+--
+
+LOCK TABLES `solicitud_art_com` WRITE;
+/*!40000 ALTER TABLE `solicitud_art_com` DISABLE KEYS */;
+INSERT INTO `solicitud_art_com` VALUES (3,14,21,'Esto es una solicitud','invalido'),(13,14,21,'fdsgf','invalido'),(12,15,21,'HOLLLAAAA QUIERO UNIRME','invalido'),(12,15,21,'asdfasdfas','invalido'),(12,15,21,'Solicito unirme a la comunidad','encurso'),(14,16,21,'Quiero unirme a la comunidad','encurso'),(15,19,21,'Quiero unirme a la comunidad','aprobado'),(15,19,22,'Holas quiero unirme gente','aprobado');
+/*!40000 ALTER TABLE `solicitud_art_com` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
 -- Table structure for table `usuario`
 --
 
@@ -145,7 +171,7 @@ CREATE TABLE `usuario` (
   UNIQUE KEY `username` (`username`),
   KEY `id_persona` (`id_persona`),
   CONSTRAINT `usuario_ibfk_1` FOREIGN KEY (`id_persona`) REFERENCES `persona` (`id_persona`)
-) ENGINE=InnoDB AUTO_INCREMENT=20 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=23 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -154,7 +180,7 @@ CREATE TABLE `usuario` (
 
 LOCK TABLES `usuario` WRITE;
 /*!40000 ALTER TABLE `usuario` DISABLE KEYS */;
-INSERT INTO `usuario` VALUES (1,'admin1','password1','2024-09-11',1,NULL),(2,'admin2','password2','2024-09-11',2,NULL),(3,'comprador1','password3','2024-09-11',3,NULL),(4,'comprador2','password4','2024-09-11',4,NULL),(5,'comprador3','password5','2024-09-11',5,NULL),(6,'comprador4','password6','2024-09-11',6,NULL),(7,'artesano1','password7','2024-09-11',7,NULL),(8,'artesano2','password8','2024-09-11',8,NULL),(9,'artesano3','password9','2024-09-11',9,NULL),(10,'artesano4','password10','2024-09-11',10,NULL),(11,'juanp','password123',NULL,23,NULL),(13,'marial','$2b$10$0C1SwWsRlGOmTqik3tGVsOb1.xDu8ZkNV.igL2eFdHOg7Rl80YmB.',NULL,26,NULL),(14,'sphinx2001','$2b$10$2CQ9entTd1M0ELjLOFMceO8wVD.KDURl7.jxz33ZYh1g7y.TwCTHa','2024-09-18',27,'algo@gmail.com'),(15,'willly','$2b$10$hT2X7M3.9e1ZBERGBOm3NOnmVv2wowy4Hljp8Oy1cUif3ADVfUB0.','2024-09-18',28,'fav6519@gmail.com'),(16,'asasasaws','$2b$10$tm/R9C4szy7GHv8aJ1Qe8uTDcuQsuZqHW/odqBAH1LsYFjCqudzse','2024-09-18',29,'fav6519@gmail.com'),(17,'asdfasdfasd','$2b$10$OLXhKgJTsQY/VkRLJqVPt.jxRL8F8Qo4us64At32Rxn3ERFcarCWy','2024-09-19',30,'sasdf@dfd'),(18,'panchito','$2b$10$ioMlNSYfDmfHXHzPo2GE/u1vS3VkbAC2gFRoFDsnYQTFK/UzE9ujK','2024-09-24',31,'augustooverlord@gmail.com'),(19,'manager1','$2b$10$i1dPDHW4wndxYpbi2e9FE.UzOUmDQQan2qNrDJ6FRiotmDZTiDdtq','2024-09-26',32,'fav6519@gmail.com');
+INSERT INTO `usuario` VALUES (1,'admin1','password1','2024-09-11',1,NULL),(2,'admin2','password2','2024-09-11',2,NULL),(3,'comprador1','password3','2024-09-11',3,NULL),(4,'comprador2','password4','2024-09-11',4,NULL),(5,'comprador3','password5','2024-09-11',5,NULL),(6,'comprador4','password6','2024-09-11',6,NULL),(7,'artesano1','password7','2024-09-11',7,NULL),(8,'artesano2','password8','2024-09-11',8,NULL),(9,'artesano3','password9','2024-09-11',9,NULL),(10,'artesano4','password10','2024-09-11',10,NULL),(11,'juanp','password123',NULL,23,NULL),(13,'marial','$2b$10$0C1SwWsRlGOmTqik3tGVsOb1.xDu8ZkNV.igL2eFdHOg7Rl80YmB.',NULL,26,NULL),(14,'sphinx2001','$2b$10$2CQ9entTd1M0ELjLOFMceO8wVD.KDURl7.jxz33ZYh1g7y.TwCTHa','2024-09-18',27,'algo@gmail.com'),(15,'willly','$2b$10$hT2X7M3.9e1ZBERGBOm3NOnmVv2wowy4Hljp8Oy1cUif3ADVfUB0.','2024-09-18',28,'fav6519@gmail.com'),(16,'asasasaws','$2b$10$tm/R9C4szy7GHv8aJ1Qe8uTDcuQsuZqHW/odqBAH1LsYFjCqudzse','2024-09-18',29,'fav6519@gmail.com'),(17,'asdfasdfasd','$2b$10$OLXhKgJTsQY/VkRLJqVPt.jxRL8F8Qo4us64At32Rxn3ERFcarCWy','2024-09-19',30,'sasdf@dfd'),(18,'panchito','$2b$10$ioMlNSYfDmfHXHzPo2GE/u1vS3VkbAC2gFRoFDsnYQTFK/UzE9ujK','2024-09-24',31,'augustooverlord@gmail.com'),(19,'manager1','$2b$10$i1dPDHW4wndxYpbi2e9FE.UzOUmDQQan2qNrDJ6FRiotmDZTiDdtq','2024-09-26',32,'fav6519@gmail.com'),(20,'manager2','$2b$10$zi0Um8DjeN6qbt48DWztauVTb7h1t8bqOGE5eq5uVK5fKC8rGnGfm','2024-10-02',33,'augustooverlord@gmail.com'),(21,'artesano5','$2b$10$5N4JU4I8HjuSwXY.Vd1cnuLlTKGoutVTg8J46X4/GGfDe/pghrsya','2024-10-02',34,'augustooverlord@gmail.com'),(22,'frankcuesta','$2b$10$gVHSxK5H48y8ZQwnzHcRzOOMdK5T/qdSLMAKghP1UKcBJF4hJA5oa','2024-10-03',35,'alt@gmail.com');
 /*!40000 ALTER TABLE `usuario` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -182,7 +208,7 @@ CREATE TABLE `usuario_comunidad` (
 
 LOCK TABLES `usuario_comunidad` WRITE;
 /*!40000 ALTER TABLE `usuario_comunidad` DISABLE KEYS */;
-INSERT INTO `usuario_comunidad` VALUES (16,12,'activo'),(16,13,'activo'),(16,14,'activo');
+INSERT INTO `usuario_comunidad` VALUES (15,12,'encargado'),(14,13,'encargado'),(19,15,'encargado'),(21,15,'artesano'),(22,15,'artesano');
 /*!40000 ALTER TABLE `usuario_comunidad` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -209,7 +235,7 @@ CREATE TABLE `usuario_rol` (
 
 LOCK TABLES `usuario_rol` WRITE;
 /*!40000 ALTER TABLE `usuario_rol` DISABLE KEYS */;
-INSERT INTO `usuario_rol` VALUES (1,1),(2,1),(14,1),(15,1),(16,1),(17,1),(19,1),(3,2),(4,2),(5,2),(6,2),(7,3),(8,3),(9,3),(10,3),(18,3);
+INSERT INTO `usuario_rol` VALUES (1,1),(2,1),(14,1),(15,1),(16,1),(17,1),(19,1),(20,1),(3,2),(4,2),(5,2),(6,2),(7,3),(8,3),(9,3),(10,3),(18,3),(21,3),(22,3);
 /*!40000 ALTER TABLE `usuario_rol` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -222,4 +248,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2024-09-26 11:16:06
+-- Dump completed on 2024-10-03 11:46:42
