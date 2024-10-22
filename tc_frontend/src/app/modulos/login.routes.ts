@@ -7,6 +7,10 @@ import { AuthGuard } from '../guards/auth.guard';
 import { UsuariosAdministradorComponent } from "./usuarios/usuarios-administrador/usuarios-administrador.component";
 import { UsuariosArtesanoComponent } from "./usuarios/usuarios-artesano/usuarios-artesano.component";
 import { ProductosPageComponent } from "./productos/productos-page/productos-page.component";
+import { AboutComponent } from "./aboutus/about/about.component";
+import { UsuariosCompradorComponent } from "./usuarios/usuarios-comprador/usuarios-comprador.component";
+import { ComunidadesComponent } from "./comunidades/comunidades/comunidades.component";
+import { UsuariosSuperadminComponent } from "./usuarios/usuarios-superadmin/usuarios-superadmin.component";
 
 export const routes: Routes = [
     {
@@ -40,8 +44,24 @@ export const routes: Routes = [
         canActivate: [AuthGuard]
     },
     {
+        path: 'comprador',
+        component: UsuariosCompradorComponent,
+    },
+    {
         path: 'productos',
         component: ProductosPageComponent,
+    },
+    {
+        path: 'aboutus',
+        component: AboutComponent,
+    },
+    {
+        path: 'comunidades',
+        component: ComunidadesComponent,
+    },
+    {
+        path: 'superadmin',
+        component: UsuariosSuperadminComponent,
     },
     {
         path: '**',

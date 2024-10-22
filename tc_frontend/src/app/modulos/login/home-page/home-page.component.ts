@@ -5,6 +5,7 @@ import { RouterModule, Router } from '@angular/router';
 import { AuthService } from '../../../services/auth/auth.service';
 import { Usuario } from '../../../models/usuario.model';
 import { UserService } from '../../../services/user/user.service';
+import { RouterLink } from '@angular/router';
 
 @Component({
   selector: 'app-home-page',
@@ -53,7 +54,9 @@ export class HomePageComponent implements OnInit{
       this.router.navigate(['/auth/comprador']);
     } else if (this.usuarioRol === 'Artesano') {
       this.router.navigate(['/auth/artesano']);
-    }else{
+    } else if (this.usuarioRol === 'Administrador') {
+      this.router.navigate(['/auth/superadmin']);
+    } else{
       this.router.navigate(['/auth/home']);
     }
   }
